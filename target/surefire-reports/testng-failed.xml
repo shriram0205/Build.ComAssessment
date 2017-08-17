@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="build.com.BuildTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="buildTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- build.com.BuildTest -->
+      <class name="build.com.AppiumTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="androidTest"/>
+        </methods>
+      </class> <!-- build.com.AppiumTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
