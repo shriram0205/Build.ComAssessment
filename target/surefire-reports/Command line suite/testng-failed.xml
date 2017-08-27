@@ -3,19 +3,18 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="build.com.BuildTest">
+      <class name="com.build.checkout.CheckoutTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="buildTest"/>
-          <include name="openBrowser"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- build.com.BuildTest -->
-      <class name="build.com.AppiumTest">
+      </class> <!-- com.build.checkout.CheckoutTest -->
+      <class name="build.com.Appium.AndroidCheckoutTest">
         <methods>
+          <include name="performTest"/>
           <include name="beforeMethod"/>
-          <include name="androidTest"/>
         </methods>
-      </class> <!-- build.com.AppiumTest -->
+      </class> <!-- build.com.Appium.AndroidCheckoutTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

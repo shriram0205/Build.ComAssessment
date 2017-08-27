@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test" allow-return-values="true">
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="build.com.BuildTest"/>
-
-    </classes>
+      <class name="com.build.checkout.CheckoutTest"/>
+      <class name="com.build.appium.AndroidCheckoutTest"/>
+	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
